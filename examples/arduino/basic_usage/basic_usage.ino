@@ -1,7 +1,7 @@
 /**
  * @file    analogpad.h
  * @author  Jose Miguel Rios Rubio <jrios.github@gmail.com>
- * @date    06-01-2021
+ * @date    21-01-2021
  * @version 1.0.0
  *
  * @section DESCRIPTION
@@ -63,7 +63,7 @@ ANALOGPAD ANALOG_PAD(IO_ADC_APAD_X, IO_ADC_APAD_Y, IO_I_APAD_BTN);
 void setup()
 {
     Serial.begin(SERIAL_BAUDS);
-    ANALOG_PAD.init();
+    ANALOG_PAD.setup();
 }
 
 void loop()

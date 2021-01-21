@@ -2,8 +2,8 @@
 /**
  * @file    analogpad.h
  * @author  Jose Miguel Rios Rubio <jrios.github@gmail.com>
- * @date    06-01-2021
- * @version 1.0.0
+ * @date    21-01-2021
+ * @version 1.0.1
  *
  * @section DESCRIPTION
  *
