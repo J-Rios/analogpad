@@ -1,9 +1,33 @@
-/**************************************************************************************************/
-// File: basic_usage.ino
-// Description: ANALOGPAD library basic usage example
-// Date: 06 jan. 2021
-// Version: 1.0.0
-/**************************************************************************************************/
+/**
+ * @file    analogpad.h
+ * @author  Jose Miguel Rios Rubio <jrios.github@gmail.com>
+ * @date    06-01-2021
+ * @version 1.0.0
+ *
+ * @section DESCRIPTION
+ *
+ * ANALOGPAD library basic usage example.
+ *
+ * @section LICENSE
+ *
+ * Copyright (c) 2020 Jose Miguel Rios Rubio. All right reserved.
+ * 
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ * 
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+ */
+
+/*****************************************************************************/
 
 /* Libraries */
 
@@ -13,7 +37,7 @@
 // Custom libraries
 #include <analogpad.h>
 
-/**************************************************************************************************/
+/*****************************************************************************/
 
 /* Defines, Macros, Constants and Types */
 
@@ -32,7 +56,7 @@
 // Analog Pad
 ANALOGPAD ANALOG_PAD(IO_ADC_APAD_X, IO_ADC_APAD_Y, IO_I_APAD_BTN);
 
-/**************************************************************************************************/
+/*****************************************************************************/
 
 /* Setup & Loop */
 

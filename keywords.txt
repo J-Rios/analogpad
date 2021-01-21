@@ -12,7 +12,7 @@ ANALOGPAD	KEYWORD1
 # Methods and Functions (KEYWORD2)
 ###########################################
 
-init	KEYWORD2
+setup	KEYWORD2
 axis_x	KEYWORD2
 axis_y	KEYWORD2
 btn_pressed	KEYWORD2

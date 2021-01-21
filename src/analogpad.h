@@ -7,7 +7,7 @@
  *
  * @section DESCRIPTION
  *
- * Analog Pad ease control class.
+ * ANALOGPAD ease control class.
  *
  * @section LICENSE
  *
@@ -51,7 +51,7 @@ class ANALOGPAD
         ANALOGPAD(const uint32_t pin_x, const uint32_t pin_y,
                 const uint32_t pin_btn);
 
-        void init(void);
+        void setup(void);
 
         uint16_t axis_x(void);
         uint16_t axis_y(void);

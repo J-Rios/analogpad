@@ -2,12 +2,12 @@
 /**
  * @file    analogpad.cpp
  * @author  Jose Miguel Rios Rubio <jrios.github@gmail.com>
- * @date    06-01-2021
+ * @date    21-01-2021
  * @version 1.0.0
  *
  * @section DESCRIPTION
  *
- * Analog Pad ease control class.
+ * ANALOGPAD ease control class.
  *
  * @section LICENSE
  *
@@ -72,7 +72,7 @@ ANALOGPAD::ANALOGPAD(const uint32_t pin_x, const uint32_t pin_y,
 /**
   * @brief  Initialize Analog Pad GPIOs.
   */
-void ANALOGPAD::init(void)
+void ANALOGPAD::setup(void)
 {
     hal_gpio_as_adc(this->pin_x);
     hal_gpio_as_adc(this->pin_y);
